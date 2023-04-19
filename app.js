@@ -16,13 +16,13 @@ if (answerTwo === "no" || answerTwo === "n") {
   alert("it's raining.");
 }
 
-let answerThree = prompt("howcis your work?").toLowerCase();
+let answerThree = prompt("how is your work?").toLowerCase();
 
 if (answerThree === "yes" || answerThree === "y") {
   alert("It is fine.");
 } else {
   console.log("It is worse.");
-
+}
   let answerFour = prompt("Where do I live?").toLowerCase();
 
   if (answerFour === "no" || answerFour === "n") {
