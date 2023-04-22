@@ -1,10 +1,11 @@
 "use strict";
 
 let answerOne = prompt("Are you doing good?").toLowerCase();
-
+let userScore = 0
 if (answerOne === "yes" || answerOne === "y") {
   alert("I'm doing good.");
-  //console.log("I'm doing fine.")
+  //console.log("I'm doing fine.");
+  userScore += 1
 } else {
   alert("I'm ok.")
   //console.log("Im doing bad.");
@@ -15,6 +16,7 @@ let answerTwo = prompt("Is it snowing today?").toLowerCase();
 if (answerTwo === "no" || answerTwo === "n") {
   alert("it's sunny.");
   //console.log("No, it is not snowing today.");
+  userScore +=1
 } else {
   alert("it's raining.");
   //console,log('it is hot today.');
@@ -26,6 +28,7 @@ let answerThree = prompt("do I go to work?").toLowerCase();
 if (answerThree === "yes" || answerThree === "y") {
   alert("It is fine.");
   //console.log("yes, I go to work.");
+  userScore +=1
 } else {
   alert("It is worse.");
   // console.log("It is worse.");
@@ -35,6 +38,7 @@ it}
   if (answerFour === "no" || answerFour === "n") {
     alert("I live in Nashville.");
     //console.log("No, I do not live in Memphis.");
+    userScore +=1
   } else {
     alert("I do not live in Knoxville.");
     console.log("I dont live there.");
@@ -45,11 +49,12 @@ it}
   if (answerFive === "yes" || answerFive === "y") {
     alert("yes,I am 38 years old.");
     //console.log("yes,I am 38 years old.")
+    userScore +=1
   } else {
     alert ("That's wrong, I am 38 years old.")
    // console.log("I dont know.");
   }
-
+  alert('Gameover')
   alert(
     `Now that you know me, ${name}! Let's play a random guessing game before you read my page for detailed information about me.`
   );
