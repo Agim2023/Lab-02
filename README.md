@@ -1,12 +1,14 @@
-# LAB - Number
+# LAB -02 & -03
 
-## Project Name
+## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Web page about me and a guessing game.
 
-### Author: Student/Group Name
+### Author: Justin Agim
 
 ### Links and Resources
+
+Thomas assist me for this assignment.
 
 * Any Links you used as reference
 
